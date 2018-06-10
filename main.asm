@@ -652,6 +652,7 @@ MoltresPicFront::     INCBIN "pic/bmon/moltres.pic"
 MoltresPicBack::      INCBIN "pic/monback/moltresb.pic"
 
 
+
 SECTION "Battle (bank A)", ROMX, BANK[$A]
 INCLUDE "engine/battle/moveEffects/leech_seed_effect.asm"
 
@@ -859,7 +860,9 @@ WartortlePicBack::     INCBIN "pic/monback/wartortleb.pic"
 CharizardPicFront::    INCBIN "pic/bmon/charizard.pic"
 CharizardPicBack::     INCBIN "pic/monback/charizardb.pic"
 FossilAerodactylPic::  INCBIN "pic/bmon/fossilaerodactyl.pic"
+GhostPicFront::		
 GhostPic::             INCBIN "pic/other/ghost.pic"
+GhostPicBack::		   INCBIN "pic/monback/ghostb.pic"
 OddishPicFront::       INCBIN "pic/bmon/oddish.pic"
 OddishPicBack::        INCBIN "pic/monback/oddishb.pic"
 GloomPicFront::        INCBIN "pic/bmon/gloom.pic"
@@ -872,6 +875,7 @@ WeepinbellPicFront::   INCBIN "pic/bmon/weepinbell.pic"
 WeepinbellPicBack::    INCBIN "pic/monback/weepinbellb.pic"
 VictreebelPicFront::   INCBIN "pic/bmon/victreebel.pic"
 VictreebelPicBack::    INCBIN "pic/monback/victreebelb.pic"
+
 
 
 SECTION "Battle (bank D)", ROMX, BANK[$D]
@@ -1295,6 +1299,7 @@ LoreleiPic::       INCBIN "pic/trainer/lorelei.pic"
 ChannelerPic::     INCBIN "pic/trainer/channeler.pic"
 AgathaPic::        INCBIN "pic/trainer/agatha.pic"
 LancePic::         INCBIN "pic/trainer/lance.pic"
+
 
 INCLUDE "data/mapHeaders/tradecenter.asm"
 INCLUDE "scripts/tradecenter.asm"
@@ -1904,6 +1909,7 @@ Facility_Block:    INCBIN "gfx/blocksets/facility.bst"
 
 
 SECTION "bank1B",ROMX,BANK[$1B]
+
 
 Cemetery_GFX:      INCBIN "gfx/tilesets/cemetery.2bpp"
 Cemetery_Block:    INCBIN "gfx/blocksets/cemetery.bst"

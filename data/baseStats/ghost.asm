@@ -8,7 +8,7 @@ db GHOST ; species type 1
 db GHOST ; species type 2
 db 45 ; catch rate
 db 0 ; base exp yield
-INCBIN "pic/bmon/ghost.pic",0,1 ; 66, sprite dimensions
+INCBIN "pic/other/ghost.pic",0,1 ; 66, sprite dimensions
 dw GhostPicFront
 dw GhostPicBack
 ; attacks known at lvl 0
