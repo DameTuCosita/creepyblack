@@ -1508,3 +1508,16 @@ _VictreebelDexEntry::
 	next "from there"
 	dex
 
+_GhostDexEntry::
+	text " . . . "
+	dex
+
+_MissingNoDexEntry::
+	text "I..."
+	next "What is this?"
+	next "WHAT. THE HELL."
+
+	page "IS THIS?"
+	next "TELL ME!"
+	next "THIS IS CONFUSING!"
+	dex
