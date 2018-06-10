@@ -1,6 +1,6 @@
-# Pokémon Red and Blue
+# Pokémon Creepyblack
 
-This is a disassembly of Pokémon Red and Blue.
+This is a modified version of the disassembly of Pokémon Red and Blue.
 
 It builds the following roms:
 
@@ -11,7 +11,7 @@ To set up the repository, see [**INSTALL.md**](INSTALL.md).
 
 
 ## See also
-
+* Disassembly of [**Pokémon Red**][pokered]
 * Disassembly of [**Pokémon Yellow**][pokeyellow]
 * Disassembly of [**Pokémon Gold**][pokegold]
 * Disassembly of [**Pokémon Crystal**][pokecrystal]
@@ -23,6 +23,7 @@ To set up the repository, see [**INSTALL.md**](INSTALL.md).
 * Discord: [**pret**][Discord]
 * irc: **irc.freenode.net** [**#pret**][irc]
 
+[pokered]: https://github.com/pret/pokered
 [pokeyellow]: https://github.com/pret/pokeyellow
 [pokegold]: https://github.com/pret/pokegold
 [pokecrystal]: https://github.com/pret/pokecrystal
