@@ -29,7 +29,7 @@ PokedexEntryPointers:
 	dw BlastoiseDexEntry
 	dw PinsirDexEntry
 	dw TangelaDexEntry
-	dw MissingNoDexEntry
+	dw GhostDexEntry
 	dw MissingNoDexEntry
 	dw GrowlitheDexEntry
 	dw OnixDexEntry
@@ -1252,8 +1252,17 @@ VictreebelDexEntry:
 	TX_FAR _VictreebelDexEntry
 	db "@"
 
+GhostDexEntry:
+    db "SPIRIT@"
+	db 0,0
+	dw 000
+	TX_FAR _GhostDexEntry
+	db "@"
+
 MissingNoDexEntry:
-	db "???@"
-	db 10 ; 1.0 m
-	db 100 ; 10.0 kg
-	db 0,"コメント さくせいちゅう@" ; コメント作成中 (Comment to be written)
+    db "GLITCH@"
+	db 0,0
+	dw 000
+	TX_FAR _MissingNoDexEntry
+	db "@"
+
