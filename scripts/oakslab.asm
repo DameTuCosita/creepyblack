@@ -943,6 +943,8 @@ OaksLabMonEnergeticText:
 OaksLabReceivedMonText:
 	TX_FAR _OaksLabReceivedMonText
 	TX_SFX_KEY_ITEM
+	lb bc, GHOST, 5
+	call GivePokemon
 	db "@"
 
 OaksLabScript_1d22d:

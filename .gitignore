@@ -1,0 +1,7 @@
+
+*.o
+*.sym
+*.gbc
+*.pic
+*.2bpp
+*.1bpp
