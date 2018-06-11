@@ -1508,7 +1508,7 @@ _VictreebelDexEntry::
 	next "from there"
 	dex
 
-_GhostDexEntry::
+_EvilghostDexEntry::
 	text " . . . "
 	dex
 

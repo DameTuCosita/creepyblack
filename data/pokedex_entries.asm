@@ -29,7 +29,7 @@ PokedexEntryPointers:
 	dw BlastoiseDexEntry
 	dw PinsirDexEntry
 	dw TangelaDexEntry
-	dw GhostDexEntry
+	dw EvilghostDexEntry
 	dw MissingNoDexEntry
 	dw GrowlitheDexEntry
 	dw OnixDexEntry
@@ -1252,11 +1252,11 @@ VictreebelDexEntry:
 	TX_FAR _VictreebelDexEntry
 	db "@"
 
-GhostDexEntry:
+EvilghostDexEntry:
     db "SPIRIT@"
 	db 0,0
 	dw 000
-	TX_FAR _GhostDexEntry
+	TX_FAR _EvilghostDexEntry
 	db "@"
 
 MissingNoDexEntry:

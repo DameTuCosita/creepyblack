@@ -1,4 +1,4 @@
-db DEX_GHOST ; pokedex id
+db DEX_EVILGHOST ; pokedex id
 db 152 ; base hp
 db 65 ; base attack
 db 60 ; base defense

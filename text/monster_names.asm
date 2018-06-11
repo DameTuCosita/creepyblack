@@ -29,7 +29,7 @@ MonsterNames:
 	db "BLASTOISE@"
 	db "PINSIR@@@@"
 	db "TANGELA@@@"
-	db "MISSINGNO."
+	db "GHOST@@@@@"
 	db "MISSINGNO."
 	db "GROWLITHE@"
 	db "ONIX@@@@@@"
@@ -189,4 +189,3 @@ MonsterNames:
 	db "BELLSPROUT"
 	db "WEEPINBELL"
 	db "VICTREEBEL"
-	db "GHOST"

@@ -927,6 +927,10 @@ OaksLabMonChoiceMenu:
 	ld a, [wcf91]
 	ld [wd11e], a
 	call AddPartyMon
+	ld a, EVILGHOST
+	call DisplayPokedex
+	lb bc, EVILGHOST, 5
+	call GivePokemon
 	ld hl, wd72e
 	set 3, [hl]
 	ld a, $fc
@@ -1157,8 +1161,6 @@ OaksLabText14:
 	TX_ASM
 	ld hl, OaksLabRivalReceivedMonText
 	call PrintText
-	lb bc, GHOST, 5
-	call GivePokemon
 	jp TextScriptEnd
 
 OaksLabRivalReceivedMonText:
