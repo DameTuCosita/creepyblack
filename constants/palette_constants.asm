@@ -31,7 +31,7 @@ const_value = 0
 	const PAL_SAFFRON   ; $0B
 	const PAL_TOWNMAP   ; $0C
 	const PAL_LOGO1     ; $0D
-	const PAL_LOGO2     ; $0E
+	const PAL_LOGO2     ; $19
 	const PAL_0F        ; $0F
 	const PAL_MEWMON    ; $10
 	const PAL_BLUEMON   ; $11

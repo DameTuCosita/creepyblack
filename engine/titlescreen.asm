@@ -125,7 +125,6 @@ IF DEF(_BLUE)
 ENDC
 
 	ld [wTitleMonSpecies], a
-	call LoadTitleMonSprite
 	ld a, (vBGMap0 + $300) / $100
 	call TitleScreenCopyTileMapToVRAM
 	call SaveScreenTilesToBuffer1
@@ -227,7 +226,6 @@ ENDC
 	call CheckForUserInterruption
 	jr c, .finishedWaiting
 	callba TitleScreenAnimateBallIfStarterOut
-	call TitleScreenPickNewMon
 	jr .awaitUserInterruptionLoop
 
 .finishedWaiting
@@ -393,7 +391,7 @@ PrintGameVersionOnTitleScreen:
 ; these point to special tiles specifically loaded for that purpose and are not usual text
 VersionOnTitleScreenText:
 IF DEF(_RED)
-	db $60,$61,$7F,$65,$66,$67,$68,$69,"@" ; "Red Version"
+	db $61,$62,$63,$64,$65,$66,$67,$68,$69,"@" ; "Black Version"
 ENDC
 IF DEF(_BLUE)
 	db $61,$62,$63,$64,$65,$66,$67,$68,"@" ; "Blue Version"
