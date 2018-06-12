@@ -30,7 +30,7 @@ CryData:
 	db $13, $00, $80; Blastoise
 	db $14, $00, $80; Pinsir
 	db $12, $00, $80; Tangela
-	db $00, $00, $00; Evilghost
+	db $00, $00, $00; MissingNo.
 	db $00, $00, $00; MissingNo.
 	db $1F, $20, $40; Growlithe
 	db $17, $FF, $C0; Onix
@@ -180,7 +180,7 @@ CryData:
 	db $04, $20, $40; Charmeleon
 	db $1D, $20, $40; Wartortle
 	db $04, $00, $80; Charizard
-	db $1D, $00, $80; MissingNo.
+	db $1D, $00, $80; Evilghost
 	db $00, $00, $00; MissingNo.
 	db $00, $00, $00; MissingNo.
 	db $00, $00, $00; MissingNo.

@@ -30,7 +30,7 @@ const_value = 1
 	const BLASTOISE    ; $1C
 	const PINSIR       ; $1D
 	const TANGELA      ; $1E
-	const EVILGHOST    ; $1F
+	const MISSINGNO_1F ; $1F
 	const MISSINGNO_20 ; $20
 	const GROWLITHE    ; $21
 	const ONIX         ; $22
@@ -180,7 +180,7 @@ const_value = 1
 	const CHARMELEON   ; $B2
 	const WARTORTLE    ; $B3
 	const CHARIZARD    ; $B4
-	const MISSINGNO_B5 ; $B5
+	const EVILGHOST    ; $B5
 	const FOSSIL_KABUTOPS   ; $B6
 	const FOSSIL_AERODACTYL ; $B7
 	const MON_GHOST    ; $B8

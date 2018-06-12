@@ -32,7 +32,7 @@ EvosMovesPointerTable:
 	dw BlastoiseEvosMoves
 	dw PinsirEvosMoves
 	dw TangelaEvosMoves
-	dw EvilghostEvosMoves
+	dw MissingNo1FEvosMoves
 	dw MissingNo20EvosMoves
 	dw GrowlitheEvosMoves
 	dw OnixEvosMoves
@@ -182,7 +182,7 @@ EvosMovesPointerTable:
 	dw CharmeleonEvosMoves
 	dw WartortleEvosMoves
 	dw CharizardEvosMoves
-	dw MissingNoB5EvosMoves
+	dw EvilghostEvosMoves
 	dw FossilKabutopsEvosMoves
 	dw FossilAerodactylEvosMoves
 	dw MonGhostEvosMoves
@@ -538,7 +538,7 @@ TangelaEvosMoves:
 	db 49, GROWTH
 	db 0
 
-EvilghostEvosMoves:
+MissingNo1FEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
@@ -2038,10 +2038,11 @@ CharizardEvosMoves:
 	db 55, FIRE_SPIN
 	db 0
 
-MissingNoB5EvosMoves:
+EvilghostEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 1, CURSE
 	db 0
 
 FossilKabutopsEvosMoves:
